@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    
+    
+}
+
+
+
+
+.head{
+
+    background-image: url(./pymtgtw3.png);
+    background-size: 500px 280px;
+    background-repeat: no-repeat;
+    padding: 100px;
+    background-position: 90%;
+    
+}

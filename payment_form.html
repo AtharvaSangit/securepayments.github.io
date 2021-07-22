@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_paymentform.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+   
+    <title>Payment Form</title>
+</head>
+<body>
+    <header>SECURE<br><i class="fa fa-credit-card" style="font-size:50px;color:rgb(0, 4, 255)"></i> Card Mode</header>
+    
+    <hr>
+    <div class="container">
+    <form action="">
+        <h1 class="main_heading">Payment Form</h1>
+        <hr>
+        <h2>Contact  Information</h2>
+        <p>Name: * <input type="text" name="name" required placeholder="Atharva Sangit"></input></p>
+        <fieldset>
+        <legend>Gender *</legend>
+        <p>Male <input type="radio" name="gender" id="male" required>Female <input type="radio" name="gender" id="female" required> </p>
+        </fieldset>
+        <p>Address: <textarea name="address" id="address" cols="30" rows="10"></textarea></p>
+        <p>Pincode: <input type="number" name="Pincode" id="number"></p>
+        <p>Email: * <input type="email" name="email" id="email" required></p>
+        <hr>
+
+        <h2>Payment Information</h2>
+        
+        <p>Card Type: *
+            <select name="card_type" id="card_type" required>
+                <option value="">---Select the card type---</option>
+                <option value="credit card">Credit  card</option>
+                <option value="debit card">debit card</option>
+                <option value="visa">visa</option>
+            </select>
+        </p>
+        <img src="./images_payment/visa.png" alt=""> <img src="./images_payment/mastcrd.jpg" alt=""> <img src="./images_payment/debcrd.jpg" alt=""> 
+        <p>Card Number: * <input type="number" name="caed_number" id="card_number" required></p>
+        <p>Card Expiration Date: * <input type="date" name="card_expiry_date" id="card_expiry_date" required placeholder="dd/mm/yyyy"></p>
+        <p>CVV: * <input type="password" name="cvv" id="cvv" required></p>
+        
+        
+            <a class="paynow" href="pament_status.html" id="pn">Pay Now</a>
+
+        
+        
+        
+        
+    </div>
+    </form>
+
+
+</body>
+
+</html>
